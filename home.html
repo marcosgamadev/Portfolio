@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
 <main>
     <header>
         <a>
-            <img src="images/Logo.png" alt="image logo">
+            <img class="logo" src="images/Logo.png" alt="image logo">
         </a>
         <nav>
-            <a href="home.html" target="_blank">Home</a>
-            <a href="about-me.html" target="_blank">About Me</a>
-            <a href="projects.html" target="_blank">Projects</a>
+            <a id="home" href="home.html" target="_blank">Home</a>
+            <a id=aboutme href="about-me.html" target="_blank">About Me</a>
+            <a id="projects" href="projects.html" target="_blank">Projects</a>
         </nav>
-        <div>
+    </header>
+    <section>
+        <div class="presentation">
             <h1>Marcos Gama</h1>
             <p>Front-End Developer | Data Analyst | Power BI Analyst</p>
             <p>Projects Portfolio</p>
             <p>Welcome!</p>
         </div>
-    </header>
-    <section>
-        <div>
+    </section>
+    <section class="container">
+        <div class="begin">
             <h2>What is Power BI?</h2>
             <p>Power BI is a Microsoft-developed business intelligence (BI) tool that enables users to efficiently collect, analyze, and visualize data. It transforms information into actionable insights through interactive reports, dashboards, and charts. Power BI integrates with various data sources and is widely used for strategic decision-making in organizations.</p>
         </div>
-        <div>
+        <div class="image-begin">
             <img src="img/analytics.jpg" alt="analytics">
         </div>
     </section>
-    <section>
-        <div>
+    <section class="container">
+        <div class="image-end">
             <img src="img/7.jpg" alt="img home">
         </div>
-        <div>
+        <div class="end">
             <h2>Why is data analysis important?</h2>
             <p>Data analysis is a cornerstone for success in modern business. It empowers both companies and individuals to make informed decisions, identify growth opportunities, and anticipate challenges. By exploring and interpreting datasets, understanding patterns, consumer behavior, and market dynamics becomes possible. This not only drives operational efficiency but also guides innovation, enabling the development of products and services aligned with market needs. Data analysis is an indispensable tool for performance evaluation, streamlining internal processes, and maintaining competitiveness. Ultimately, it provides an in-depth perspective that not only transforms information into actionable insights but also propels growth and sustainable success.</p>
         </div>
+       
     </section>
-    <footer></footer>
+<footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/marcosgama1/" target="_blank" rel="noopener noreferrer">
+              <img src="img/linkedin.png" alt="LinkedIn">
+            </a>
+          </div>
+          <p>&copy; 2023 Marcos Gama</p>
+</footer>
 </main>
 </body>
 </html>
