@@ -1,5 +1,12 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+document.addEventListener("DOMContentLoaded", function() {
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+function autoSlide() {
+  plusSlides(1);
+}
+
+setInterval(autoSlide, 4000);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -25,4 +32,4 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+}});
